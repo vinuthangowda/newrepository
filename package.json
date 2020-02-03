@@ -2,10 +2,12 @@
   "name": "newrepository",
   "version": "1.0.0",
   "description": "",
-  
+  "dependencies": {
+    "lodash": "4.17.15"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
